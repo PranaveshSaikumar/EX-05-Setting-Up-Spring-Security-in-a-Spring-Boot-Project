@@ -24,7 +24,7 @@ Run and test the app using a browser or Postman:
 Secure endpoints will prompt for username and password.
 
 ## PROGRAM CODE:
-###pom.xml (Dependencies)
+### pom.xml (Dependencies)
 <dependencies>
     <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -60,7 +60,7 @@ public class SecurityConfig {
         return new InMemoryUserDetailsManager(user);
     }
 }
-###HelloController.java
+### HelloController.java
 @RestController
 public class HelloController {
 
@@ -74,3 +74,10 @@ public class HelloController {
         return "This is a secured endpoint. You are authenticated!";
     }
 }
+## Output
+<img width="1583" height="759" alt="image" src="https://github.com/user-attachments/assets/9f2f1555-6e3b-454a-8032-6c14dd576ee3" />
+
+<img width="1587" height="793" alt="image" src="https://github.com/user-attachments/assets/8d046075-7102-4416-ad41-33437985780f" />
+
+## Result
+thus, the program for setting up Spring Security in a Spring Boot project to secure endpoints with basic authentication and role-based access control is implemented and executed successfully.
